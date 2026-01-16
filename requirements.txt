@@ -1,0 +1,39 @@
+# =============================================================================
+# Dépendances pour l'application Streamlit Rakuten
+# =============================================================================
+
+# Framework Web
+streamlit>=1.28.0
+
+# Data Science
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Machine Learning (pour les vrais modèles)
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# Deep Learning (optionnel - pour ResNet50)
+# tensorflow>=2.13.0  # Décommenter si besoin
+
+# Traitement d'images
+Pillow>=10.0.0
+
+# NLP
+nltk>=3.8.0
+langid>=1.1.6
+beautifulsoup4>=4.12.0
+
+# Visualisation
+plotly>=5.15.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Traduction (optionnel)
+# libretranslatepy>=2.1.0  # Décommenter si besoin
+
+# Sampling (pour SMOTEN)
+imbalanced-learn>=0.11.0
+
+# Utilitaires
+python-dotenv>=1.0.0
